@@ -7,7 +7,8 @@
 ## the marix x and inverse inv are stored in the environment of
 ## makeCacheMatrix().
 ## CacheSolve() calls various functions in makeCacheMatrix()
-## to 
+## to set the inverse and retrieve the inverse if it has already
+## been caclulated
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
