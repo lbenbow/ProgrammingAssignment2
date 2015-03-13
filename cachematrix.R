@@ -3,7 +3,11 @@
 
 ## Write a short comment describing this function
 ##
-## Creates 
+## Creates special "matrix" object that can cache its inverse.
+## the marix x and inverse inv are stored in the environment of
+## makeCacheMatrix().
+## CacheSolve() calls various functions in makeCacheMatrix()
+## to 
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
